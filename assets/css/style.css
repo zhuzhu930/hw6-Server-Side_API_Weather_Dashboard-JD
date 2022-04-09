@@ -1,0 +1,68 @@
+body {
+  background-image: url("/assets/images/background.jpg");
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  padding: 2rem;
+  margin: 20px;
+}
+label {
+  color: whitesmoke;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+.card {
+  /* display: grid; */
+  margin: 30px;
+  /* border-radius: 2rem; */
+  /* background-color: purple; */
+  /* width: 500px; */
+}
+.card-header {
+  background-color: whitesmoke;
+  color: black;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+}
+.card-body {
+  /* background-color: royalblue; */
+  border-radius: 5px;
+}
+
+/* .bg-light {
+  background-color: royalblue;
+} */
+
+.colOne {
+  background-color: transparent;
+  /* color: purple; */
+}
+.colTwo {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(1fr, 5);
+  /* grid-auto-rows: 300px; */
+}
+.histBtnRow {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.icons {
+  height: 70px;
+  width: 70px;
+}
+.cardTodayDate {
+  /* background-color: royalblue; */
+  font-size: 20px;
+}
