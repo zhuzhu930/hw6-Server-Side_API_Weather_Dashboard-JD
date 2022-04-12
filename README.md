@@ -7,7 +7,7 @@ Github page: https://zhuzhu930.github.io/hw6-Server-Side_API_Weather_Dashboard-J
 
 ## Screenshot:
 
-![app screenshot](images/program_screenshot.png)
+![app screenshot](assets/images/program_screenshot.png)
 
 ## Introduction:
 
