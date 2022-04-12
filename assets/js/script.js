@@ -99,7 +99,6 @@ function getFiveDayForecast() {
   .then(function (data) {
     let fiveDayArray = data.list;
 		let myWeather = [];
-		//Made a object that would allow for easier data read
 		$.each(fiveDayArray, function (index, value) {
 			testObj = {
 				date: value.dt_txt.split(' ')[0],
@@ -114,7 +113,7 @@ function getFiveDayForecast() {
 				myWeather.push(testObj);
 			}
 		})
-		//Inject the cards to the screen 
+		//Put the cards to the screen 
 		for (let i = 0; i < myWeather.length; i++) {
 
 			let divElCard = $('<div>');
@@ -150,7 +149,7 @@ function getFiveDayForecast() {
   });
 };
 
-//Allows for the example data to load for Memphis
+//Load the example card for Memphis
 function initLoad() {
 
 	let cityHistoryStore = JSON.parse(localStorage.getItem('city'));

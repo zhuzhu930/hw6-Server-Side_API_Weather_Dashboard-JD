@@ -2,9 +2,11 @@ body {
   background-image: url("../images/background.jpg");
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 h1 {
   background-color: transparent;
-  color: black;
+  color: darkblue;
+  text-shadow: 0 0 3px lightskyblue;
   text-align: center;
   font-weight: bolder;
   padding: 2rem;
@@ -18,35 +20,23 @@ label {
   text-align: center;
 }
 .card {
-  /* display: grid; */
-  margin: 30px;
-  /* border-radius: 2rem; */
-  /* background-color: purple; */
-  /* width: 500px; */
+  margin: 1rem;
 }
 .card-header {
   background-color: whitesmoke;
   color: black;
-  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 .card-body {
-  /* background-color: royalblue; */
   border-radius: 5px;
 }
 
-/* .bg-light {
-  background-color: royalblue;
-} */
-
 .colOne {
   background-color: transparent;
-  /* color: purple; */
 }
 .colTwo {
   background-color: transparent;
   display: grid;
   grid-template-columns: repeat(1fr, 5);
-  /* grid-auto-rows: 300px; */
 }
 .histBtnRow {
   display: flex;
@@ -63,6 +53,5 @@ label {
   width: 70px;
 }
 .cardTodayDate {
-  /* background-color: royalblue; */
   font-size: 20px;
 }
